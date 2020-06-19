@@ -19,6 +19,7 @@ public class VehicleService {
         }else if(type.equals(VehicleType.SUV)){
             brands.add("Hyundai Creta");
             brands.add("KIA Seltos");
+            brands.add("Toyota Fortuner");
 
         }else if(type.equals(VehicleType.SEDAN)){
             brands.add("Hyundai Verna");
