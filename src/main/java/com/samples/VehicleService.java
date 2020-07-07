@@ -15,16 +15,16 @@ public class VehicleService {
         if(type.equals(VehicleType.HATCHBACK)){
             brands.add("Maruti Suzuki Swift");
             brands.add(("Hyundai i30"));
-            brands.add(("AUDI A6"));
+            brands.add(("AUDI A3"));
 
         }else if(type.equals(VehicleType.SUV)){
             brands.add("Hyundai Creta");
-            brands.add("KIA Seltos");
+            brands.add("KIA Seltos2");
             brands.add("Toyota Fortuner");
 
         }else if(type.equals(VehicleType.SEDAN)){
             brands.add("Hyundai Verna");
-            brands.add("Honda City");
+            brands.add("Honda City2");
             brands.add("BMW 3 Series");
 
         }else {
