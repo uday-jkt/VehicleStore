@@ -23,7 +23,7 @@ public class VehicleStoreTestCases {
 	 driver=new ChromeDriver();
 	 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	 driver.manage().window().maximize(); 
-     driver.get("http://localhost:8585/MyVehicleStore/");  
+     driver.get("http://localhost:8585/MyVehicleStore1/");  
 	  
  }
 	
@@ -40,7 +40,7 @@ public class VehicleStoreTestCases {
  
 	  String actualTitle = driver.getTitle();
 	  
-	  String expectedTitle = "Vehicle Store";
+	  String expectedTitle = "Vehicle Storess";
 	  
       if(actualTitle.equalsIgnoreCase(expectedTitle))
           System.out.println("Title Matched successfully");
@@ -55,7 +55,7 @@ public class VehicleStoreTestCases {
 	  WebElement headerText = driver.findElement(By.xpath("//h1[contains(text(),'Select the type of Vehicle')]"));
 	  String text = headerText.getText();
 	  
-	  if(text.contains("Select the type of Vehicle")){
+	  if(text.contains("Select the type of Vehiclesss")){
 
 		  System.out.println("Expected Header is getting displayed");
 
@@ -69,7 +69,7 @@ public class VehicleStoreTestCases {
   @Test(priority=4)
   public void verifyVehicleListOfValues() {
 	  
-	  WebElement dropdown = driver.findElement(By.xpath("//select[@name='Type']"));
+	  WebElement dropdown = driver.findElement(By.xpath("//select[@name='Types']"));
 
 	  Select list = new Select(dropdown);
 
