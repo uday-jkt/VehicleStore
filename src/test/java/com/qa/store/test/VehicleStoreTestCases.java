@@ -69,7 +69,7 @@ public class VehicleStoreTestCases {
   @Test(priority=4)
   public void verifyVehicleListOfValues() {
 	  
-	  WebElement dropdown = driver.findElement(By.xpath("//select[@name='Types']"));
+	  WebElement dropdown = driver.findElement(By.xpath("//select[@name='Type']"));
 
 	  Select list = new Select(dropdown);
 
