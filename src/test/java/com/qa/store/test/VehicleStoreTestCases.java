@@ -23,7 +23,7 @@ public class VehicleStoreTestCases {
 	 driver=new ChromeDriver();
 	 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	 driver.manage().window().maximize(); 
-     driver.get("http://localhost:8585/MyVehicleStore1/");  
+     driver.get("http://localhost:8585/MyVehicleStore_QA Env/");  
 	  
  }
 	
@@ -35,7 +35,7 @@ public class VehicleStoreTestCases {
   }
   
   
-  @Test(priority=1)
+  @Test(groups= {"SmokeTest"})
   public void verifyPageTitle() {
  
 	  String actualTitle = driver.getTitle();
@@ -49,7 +49,7 @@ public class VehicleStoreTestCases {
    
   }
   
-  @Test(priority=3)
+  @Test(groups= {"SmokeTest"})
   public void verifyHomePageHeader() {
  		
 	  WebElement headerText = driver.findElement(By.xpath("//h1[contains(text(),'Select the type of Vehicle')]"));
