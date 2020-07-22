@@ -55,7 +55,7 @@ public class VehicleStoreTestCases {
 	  WebElement headerText = driver.findElement(By.xpath("//h1[contains(text(),'Select the type of Vehicle')]"));
 	  String text = headerText.getText();
 	  
-	  if(text.contains("Select the type of Vehiclesss")){
+	  if(text.contains("Select the type of Vehicle")){
 
 		  System.out.println("Expected Header is getting displayed");
 
