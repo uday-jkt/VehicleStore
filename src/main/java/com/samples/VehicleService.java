@@ -14,7 +14,7 @@ public class VehicleService {
 
         if(type.equals(VehicleType.HATCHBACK)){
             brands.add("Maruti Suzuki Swift");
-            brands.add(("Hyundai i10"));
+            brands.add(("Hyundai i100"));
             brands.add(("AUDI A6"));
 
         }else if(type.equals(VehicleType.SUV)){
