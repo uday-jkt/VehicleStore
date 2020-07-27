@@ -57,7 +57,7 @@ public class VehicleStoreTestCases {
 	  
 	  if(text.contains("Select the type of Vehicle")){
 
-		  System.out.println("Expected Header is getting displayed fine...");
+		  System.out.println("Expected Header is getting displayed...");
 
 		  } else {
 
