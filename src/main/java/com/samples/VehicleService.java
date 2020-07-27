@@ -21,6 +21,7 @@ public class VehicleService {
             brands.add("Hyundai Creta");
             brands.add("KIA Seltos2");
             brands.add("Toyota Fortuner");
+            brands.add("MG HECTOR");
 
         }else if(type.equals(VehicleType.SEDAN)){
             brands.add("Hyundai Verna");
