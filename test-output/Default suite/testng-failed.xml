@@ -5,8 +5,11 @@
     <classes>
       <class name="com.qa.store.test.VehicleStoreTestCases">
         <methods>
+          <include name="verifyHomePageHeader"/>
           <include name="openBrowser"/>
           <include name="tearDown"/>
+          <include name="verifyPageTitle"/>
+          <include name="verifySubmitButton"/>
           <include name="verifyVehicleListOfValues"/>
         </methods>
       </class> <!-- com.qa.store.test.VehicleStoreTestCases -->
