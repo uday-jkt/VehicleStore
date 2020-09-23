@@ -43,7 +43,7 @@ public class VehicleStoreTestCases {
 	  String expectedTitle = "Vehicle Storess";
 	  
       if(actualTitle.equalsIgnoreCase(expectedTitle))
-          System.out.println("Title Matched...");
+          System.out.println("Title Matched Successfully...");
       else
           System.out.println("Title didn't matched");    
    
