@@ -35,7 +35,7 @@ public class VehicleStoreTestCases {
   }
   
   
-  @Test(groups= {"SmokeTest"})
+  @Test(priority=1)
   public void verifyPageTitle() {
  
 	  String actualTitle = driver.getTitle();
@@ -49,7 +49,7 @@ public class VehicleStoreTestCases {
    
   }
   
-  @Test(groups= {"SmokeTest"})
+  @Test(priority=3)
   public void verifyHomePageHeader() {
  		
 	  WebElement headerText = driver.findElement(By.xpath("//h1[contains(text(),'Select the type of Vehicle')]"));
