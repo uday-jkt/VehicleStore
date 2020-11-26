@@ -31,7 +31,7 @@ public class VehicleStoreTestCases {
   public void verifySubmitButton() throws InterruptedException {
  
   driver.findElement(By.xpath("//html//body//center//form//input")).click();  
-   Thread.sleep(3000);
+   Thread.sleep(2000);
   }
   
   
