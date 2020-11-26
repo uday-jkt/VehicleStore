@@ -40,7 +40,7 @@ public class VehicleStoreTestCases {
  
 	  String actualTitle = driver.getTitle();
 	  
-	  String expectedTitle = "Vehicle Storess";
+	  String expectedTitle = "Vehicle Stores";
 	  
       if(actualTitle.equalsIgnoreCase(expectedTitle))
           System.out.println("Title Matched Successfully...");
